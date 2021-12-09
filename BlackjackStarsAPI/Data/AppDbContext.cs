@@ -11,7 +11,7 @@ namespace BlackjackStarsAPI.Data
     {
         public AppDbContext(string connectionString): base(connectionString)
         {
-
+            
         }
 
 

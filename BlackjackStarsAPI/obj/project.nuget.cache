@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D2c6uCHpJwFXSPp1rSbbJqoz1I6wmJAbaa3hXUJqznn8N3kZo/91GaSHO3WDCz7lZTMQyJF1hKsS5wX+gB60hg==",
+  "dgSpecHash": "2dtn+y81GyqtoOiJMhAJr/Nju0Pwm3ekjs49wWp0xKiKHZoj2SP63vhe8F9ecFts0dMraMW87ygHkRHrh1jLUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nick\\Documents\\GitHub\\BlackjackAPI\\BlackjackStarsAPI\\BlackjackStarsAPI.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\Nick\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Nick\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Nick\\.nuget\\packages\\mysql.data\\8.0.27\\mysql.data.8.0.27.nupkg.sha512",
+    "C:\\Users\\Nick\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Nick\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Nick\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Nick\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
