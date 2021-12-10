@@ -1,5 +1,4 @@
-﻿using BlackjackStarsAPI.Data;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
@@ -13,14 +12,6 @@ namespace BlackjackStarsAPI.Controllers
     [Route("[controller]")]
     public class LeaderboardController : Controller
     {
-        private AppDbContext _dbContext;
-
-        public LeaderboardController()
-        {
-          
-
-        }
-
         [HttpGet(Name = "GetLeaderBoard")]
         public string GetLeaderboard()
         {
@@ -43,8 +34,6 @@ namespace BlackjackStarsAPI.Controllers
                 leaderboardEntity.wins = Convert.ToInt32(item["wins"].ToString());
                 list.Add(leaderboardEntity);    
             }
-
-
             return JsonConvert.SerializeObject(list);
         }
 
@@ -65,8 +54,5 @@ namespace BlackjackStarsAPI.Controllers
 
             return HttpStatusCode.OK;
         }
-
-
-
     }
 }
